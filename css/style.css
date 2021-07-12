@@ -11,6 +11,16 @@ header {
     height: auto;
     padding: 10px 0;
     border-bottom: 1px solid #000;
+    position: relative;
+}
+
+header i.icon {
+    position: absolute;
+    right: 30px;
+    top: 32px;
+    cursor: pointer;
+    z-index: 10;
+    display: none;
 }
 
 header .logo h2 {
@@ -35,4 +45,18 @@ header nav .nav-list .list a {
 
 header nav .nav-list .list a:hover {
     color: #7cb62f;
+}
+
+@media (max-width:575px) {
+    header .logo {
+        text-align: center;
+    }
+    header nav .nav-list {
+        padding: 0;
+        text-align: center;
+        display: none;
+    }
+    header i.icon {
+        display: block;
+    }
 }
