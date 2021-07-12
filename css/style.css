@@ -17,14 +17,19 @@ body {
     background: rgba(0, 0, 0, 0.6);
 }
 
+.clear {
+    clear: both;
+}
+
 
 /* Header Styles */
 
 header {
     height: auto;
     padding: 10px 0;
-    border-bottom: 1px solid #000;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 header i.icon {
@@ -37,7 +42,8 @@ header i.icon {
 }
 
 header .logo h2 {
-    font-size: 35px;
+    font-size: 30px;
+    color: #fff;
 }
 
 header nav .nav-list {
@@ -51,7 +57,7 @@ header nav .nav-list .list a {
     display: block;
     padding: 15px;
     margin: 9px 0;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
@@ -78,7 +84,7 @@ header nav .nav-list .list a:hover {
 /* Home Styles */
 
 .home {
-    height: 600px;
+    height: 800px;
     background-image: url("../Images/home/skill-bg.jpg");
     background-size: cover;
     background-position: center;
@@ -99,8 +105,8 @@ header nav .nav-list .list a:hover {
 }
 
 .home .home-desc {
-    color: #fff;
-    font-size: 20px;
+    color: #ddd;
+    font-size: 18px;
 }
 
 .home .button {
@@ -110,4 +116,13 @@ header nav .nav-list .list a:hover {
     width: 150px;
     text-align: center;
     padding: 10px 0;
+}
+
+@media (max-width:575px) {
+    .home .home-title {
+        font-size: 35px;
+    }
+    .home .button {
+        margin-bottom: 10px;
+    }
 }
