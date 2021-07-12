@@ -4,6 +4,19 @@ body {
     font-family: Lucida Sans;
 }
 
+.sections {
+    padding: 20px 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
 
 /* Header Styles */
 
@@ -59,4 +72,42 @@ header nav .nav-list .list a:hover {
     header i.icon {
         display: block;
     }
+}
+
+
+/* Home Styles */
+
+.home {
+    height: 600px;
+    background-image: url("../Images/home/skill-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.home .home-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home .home-title {
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.home .home-desc {
+    color: #fff;
+    font-size: 20px;
+}
+
+.home .button {
+    background: #7cb62f;
+    border: 0;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
 }
