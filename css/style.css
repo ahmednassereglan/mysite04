@@ -267,3 +267,40 @@ header nav .nav-list .list a:hover {
         margin-bottom: 10px;
     }
 }
+
+
+/* Services Styles */
+
+.services {
+    background: #f7f7f7;
+}
+
+.services .services-info {
+    background: #fff;
+    padding: 18px;
+    text-align: center;
+}
+
+.services .services-info .services-icon {
+    background: #7cb62f;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 23px;
+    border: 2px solid #ddd;
+}
+
+.services .services-info .services-info-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.services .services-info .services-info-desc {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
