@@ -32,6 +32,11 @@ header {
     z-index: 999;
 }
 
+.sticky {
+    background: #000;
+    color: #fff;
+}
+
 header i.icon {
     position: absolute;
     right: 30px;
@@ -67,6 +72,10 @@ header nav .nav-list .list a:hover {
 }
 
 @media (max-width:575px) {
+    header {
+        background: #000;
+        color: #fff;
+    }
     header .logo {
         text-align: center;
     }
@@ -89,6 +98,7 @@ header nav .nav-list .list a:hover {
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-bottom: 1000px;
 }
 
 .home .home-content {
