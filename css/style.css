@@ -17,6 +17,34 @@ body {
     background: rgba(0, 0, 0, 0.6);
 }
 
+.section-header .section-title {
+    font-size: 35px;
+}
+
+.section-header .line {
+    width: 175px;
+    background: #ddd;
+    height: 2px;
+    margin: auto;
+}
+
+.section-header .line span {
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #7cb62f;
+    margin: auto;
+    position: relative;
+    bottom: 1px;
+}
+
+.section-header p {
+    width: 500px;
+    margin: 15px auto;
+    color: #999;
+    line-height: 1.5;
+}
+
 .clear {
     clear: both;
 }
@@ -98,7 +126,6 @@ header nav .nav-list .list a:hover {
     background-size: cover;
     background-position: center;
     position: relative;
-    margin-bottom: 1000px;
 }
 
 .home .home-content {
