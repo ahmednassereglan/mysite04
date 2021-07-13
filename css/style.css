@@ -279,6 +279,7 @@ header nav .nav-list .list a:hover {
     background: #fff;
     padding: 18px;
     text-align: center;
+    transition: all 0.3s ease-in-out;
 }
 
 .services .services-info .services-icon {
@@ -291,16 +292,46 @@ header nav .nav-list .list a:hover {
     color: #fff;
     font-size: 23px;
     border: 2px solid #ddd;
+    transition: all 0.3s ease-in-out;
 }
 
 .services .services-info .services-info-title {
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 20px;
+    color: #444;
+    transition: all 0.3s ease-in-out;
 }
 
 .services .services-info .services-info-desc {
     font-size: 14px;
     color: #777;
     margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.services .services-info:hover {
+    background: #7cb62f;
+}
+
+.services .services-info:hover .services-icon {
+    background: #FFF;
+    color: #7cb62f;
+}
+
+.services .services-info:hover .services-info-title,
+.services .services-info:hover .services-info-desc {
+    color: #fff;
+}
+
+@media (max-width:575px) {
+    .services .services-info {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width:575px) and (max-width:990px) {
+    .services .services-info {
+        margin-bottom: 15px;
+    }
 }
