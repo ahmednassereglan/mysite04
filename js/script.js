@@ -12,5 +12,16 @@ $(document).ready(function() {
         } else {
             $('header').removeClass('sticky');
         }
+
+        if (sc > 1800) {
+            $('.stat-info-counter').countTo();
+            $(window).off('scroll');
+        }
+
+
     });
+
+    // console.log($('.ddd').offset().top)
+
+
 });

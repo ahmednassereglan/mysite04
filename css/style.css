@@ -383,3 +383,21 @@ header nav .nav-list .list a:hover {
     text-transform: capitalize;
     font-size: 15px;
 }
+
+@media (max-width:575px) {
+    .stat {
+        height: 850px;
+    }
+    .stat .stat-info {
+        margin: 30px 0;
+    }
+}
+
+@media (min-width:575px) and (max-width:990px) {
+    .stat {
+        height: 850px;
+    }
+    .stat .stat-info {
+        margin: 30px 0;
+    }
+}
