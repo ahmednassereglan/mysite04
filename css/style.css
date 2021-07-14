@@ -273,6 +273,7 @@ header nav .nav-list .list a:hover {
 
 .services {
     background: #f7f7f7;
+    padding-bottom: 8%;
 }
 
 .services .services-info {
@@ -334,4 +335,51 @@ header nav .nav-list .list a:hover {
     .services .services-info {
         margin-bottom: 15px;
     }
+}
+
+
+/* Statistics Styles */
+
+.stat {
+    background-image: url("../Images/stat/lap-stat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.stat .stat-info {
+    margin: 90px 0;
+    text-align: center;
+}
+
+.stat .stat-info .stat-info-icon,
+.stat .stat-info .stat-info-counter,
+.stat .stat-info .stat-info-title {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.stat .stat-info .stat-info-icon {
+    background: #7cb62f;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+}
+
+.stat .stat-info .stat-info-counter {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.stat .stat-info .stat-info-title {
+    text-transform: capitalize;
+    font-size: 15px;
 }
