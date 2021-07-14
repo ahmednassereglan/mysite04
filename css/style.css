@@ -422,9 +422,12 @@ header nav .nav-list .list a:hover {
     margin-left: 5px;
 }
 
+.portfolio .images>div {
+    margin-bottom: 20px;
+}
+
 .portfolio .images>div img {
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .portfolio .view {

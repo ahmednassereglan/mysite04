@@ -24,4 +24,23 @@ $(document).ready(function() {
     // console.log($('.ddd').offset().top)
 
 
+    // portfolio Buttons Change bg
+
+    $('.buttons button').click(function() {
+        $(this).addClass('active_btn').siblings().removeClass('active_btn');
+
+
+        var CssFilter = $(this).attr('id');
+
+        if (CssFilter === 'all') {
+            $('.images > div').fadeIn();
+        } else {
+            $('.images > div').fadeOut();
+            $('.images').contents().filter('.' + CssFilter).fadeIn();
+        }
+
+
+    });
+
+
 });
