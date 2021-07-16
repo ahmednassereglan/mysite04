@@ -223,8 +223,6 @@ header nav .nav-list .list a:hover {
 
 /* About Styles */
 
-.about {}
-
 .about .about-info .about-info-title {
     font-size: 25px;
     font-weight: normal;
@@ -444,3 +442,24 @@ header nav .nav-list .list a:hover {
 .active_btn {
     background: #7cb62f !important;
 }
+
+
+/* Exprets Styles */
+
+.exprets {
+    background: #4c4c4c;
+}
+
+.exprets .section-title {
+    color: #fff;
+}
+
+.exprets .progress-content {
+    margin-top: 20px;
+}
+
+.exprets .progress-content {}
+
+.exprets .progress-content {}
+
+.exprets .progress-content {}
