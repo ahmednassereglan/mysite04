@@ -661,3 +661,40 @@ header nav .nav-list .list a:hover {
         margin: 20px auto;
     }
 }
+
+
+/* Team Styles */
+
+.team .team-content {
+    text-align: center;
+}
+
+.team .team-content .team-con-img {
+    width: 270px;
+    height: 380px;
+}
+
+.team .team-content .team-info {
+    text-transform: uppercase;
+}
+
+.team .team-content .team-info .team-info-title {
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.team .team-content .team-info .team-info-desc {
+    font-size: 12px;
+}
+
+.team .team-content .team-links {
+    width: 100%;
+    background: #222;
+    color: #fff;
+}
+
+.team .team-content .team-links .team-icon {
+    padding: 15px 12px;
+    cursor: pointer;
+}
