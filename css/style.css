@@ -458,8 +458,127 @@ header nav .nav-list .list a:hover {
     margin-top: 20px;
 }
 
-.exprets .progress-content {}
+.exprets .progress {
+    width: 150px;
+    height: 150px;
+    background: none;
+    box-shadow: none;
+    margin: 0 auto;
+    position: relative;
+}
 
-.exprets .progress-content {}
+.exprets .progress .progress-value {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    top: 5%;
+    left: 5%;
+    background: none;
+    text-align: center;
+    line-height: 135px;
+    color: #fff;
+    font-size: 25px;
+}
 
-.exprets .progress-content {}
+.exprets .progress>span {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.exprets .progress .progress-left {
+    left: 0;
+}
+
+.exprets .progress .progress-right {
+    right: 0;
+}
+
+.exprets .progress .progress-bar {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.exprets .progress.blue .progress-bar {
+    color: #049dff;
+}
+
+.exprets .progress.yellow .progress-bar {
+    color: #fdba04;
+}
+
+.exprets .progress .progress-left .progress-bar {
+    left: 100%;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    border-left: 0;
+    transform-origin: left;
+}
+
+.exprets .progress .progress-right .progress-bar {
+    right: 100%;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 80px;
+    border-right: 0;
+    transform-origin: right;
+    animation: load1 1.8s linear forwards;
+}
+
+.exprets .progress.blue .progress-left .progress-bar {
+    animation: load2 1.5s linear forwards 1.8s;
+}
+
+.exprets .progress.yellow .progress-left .progress-bar {
+    animation: load3 1.5s linear forwards 1.8s;
+}
+
+@keyframes load1 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes load2 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(144deg);
+    }
+}
+
+@keyframes load3 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+.exprets .title {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/* Pricing Styles */
+
+.pricing {
+    background: #f7f7f7;
+}
