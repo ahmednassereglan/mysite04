@@ -854,6 +854,10 @@ header nav .nav-list .list a:hover {
     color: #FFF;
 }
 
+.choose .choose-media .pop {
+    color: #FFF;
+}
+
 .choose .choose-media .choose-icon {
     background: #f00;
     padding: 15px;

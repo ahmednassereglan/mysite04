@@ -61,5 +61,21 @@ $(document).ready(function() {
         }
     })
 
+    // choose panal
+
+    $('.choose-panal .item-list').click(function() {
+        $(this).addClass('active_btn').siblings().removeClass('active_btn');
+        var p = $(this).data('role')
+        $('.content > div').hide();
+        $('.content').contents().filter('#' + p).fadeIn();
+
+    });
+
+
+    // choose media pop
+    $('.choose-media .pop').magnificPopup({
+        type: 'iframe'
+
+    });
 
 });

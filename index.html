@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/vendors/font-awesome.min.css">
     <link rel="stylesheet" href="css/vendors/owl.carousel.min.css">
     <link rel="stylesheet" href="css/vendors/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/vendors/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
     <title>mysite04</title>
 
@@ -628,12 +629,12 @@
                 <div class="col-md-6 col-xs-12">
                     <div class="choose-panal">
                         <ul class="panal-list list-unstyled">
-                            <li class="item-list" id="panal-about">About</li>
-                            <li class="item-list" id="panal-service">Service</li>
-                            <li class="item-list" id="panal-contact">Contact</li>
+                            <li class="item-list" data-role="panal-about">About</li>
+                            <li class="item-list" data-role="panal-service">Service</li>
+                            <li class="item-list" data-role="panal-contact">Contact</li>
                         </ul>
                         <div class="content">
-                            <div class="content-info content1">
+                            <div class="content-info content1" id="panal-about">
                                 <img src="Images/choose/panel2.jpg" alt="">
                                 <p>About Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et unde ea accusamus nemo magnam natus tenetur itaque, quia molestias quod! Natus deleniti sint commodi pariatur accusantium quidem doloribus obcaecati aperiam
                                     temporibus ea, accusamus autem voluptatibus ipsum ducimus rerum explicabo hic maxime est sunt quam quod! Vero sed dolores voluptas quasi deserunt amet aliquid unde repellendus sapiente voluptatem! Sequi adipisci rerum
@@ -642,7 +643,7 @@
                             </div>
                             <div class="clearfix"></div>
                             <!-- ./content1 -->
-                            <div class="content-info content2">
+                            <div class="content-info content2" id="panal-service">
                                 <img src="Images/choose/panel2.jpg" alt="">
                                 <p>Service Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et unde ea accusamus nemo magnam natus tenetur itaque, quia molestias quod! Natus deleniti sint commodi pariatur accusantium quidem doloribus obcaecati aperiam
                                     temporibus ea, accusamus autem voluptatibus ipsum ducimus rerum explicabo hic maxime est sunt quam quod! Vero sed dolores voluptas quasi deserunt amet aliquid unde repellendus sapiente voluptatem! Sequi adipisci rerum
@@ -652,7 +653,7 @@
                             </div>
                             <div class="clearfix"></div>
                             <!-- ./content2 -->
-                            <div class="content-info content3">
+                            <div class="content-info content3" id="panal-contact">
                                 <img src="Images/choose/panel2.jpg" alt="">
                                 <p>Contact Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et unde ea accusamus nemo magnam natus tenetur itaque, quia molestias quod! Natus deleniti sint commodi pariatur accusantium quidem doloribus obcaecati aperiam
                                     temporibus ea, accusamus autem voluptatibus ipsum ducimus rerum explicabo hic maxime est sunt quam quod! Vero sed dolores voluptas quasi deserunt amet aliquid unde repellendus sapiente voluptatem! Sequi adipisci rerum
@@ -668,7 +669,9 @@
                 <!-- ./choose-left -->
                 <div class="col-md-6 col-xs-12">
                     <div class="choose-media">
-                        <i class="choose-icon fa fa-play" aria-hidden="true"></i>
+                        <a href="https://www.youtube.com/watch?v=WPXb6Asi9Yk" class="pop">
+                            <i class="choose-icon fa fa-play" aria-hidden="true"></i>
+                        </a>
                         <h3 class="choose-title">Our Successfully Story</h3>
                         <p class="choose-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
@@ -684,6 +687,7 @@
     <script src="js/vendors/bootstrap.js"></script>
     <script src="js/vendors/jquery.countTo.js"></script>
     <script src="js/vendors/owl.carousel.min.js"></script>
+    <script src="js/vendors/jquery.magnific-popup.js"></script>
     <script src="js/script.js"></script>
 </body>
 
