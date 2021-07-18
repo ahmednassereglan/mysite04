@@ -751,3 +751,115 @@ header nav .nav-list .list a:hover {
         width: 100%;
     }
 }
+
+
+/* Business Styles */
+
+.business {
+    background-image: url("../Images/stat/lap-stat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+.business .business-info {
+    margin: 90px 0;
+}
+
+.business .business-info .business-title {
+    font-size: 35px;
+}
+
+.business .business-info .business-desc {
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+    color: #f6f6f6;
+}
+
+.business .business-info .business-btn {
+    background: #7cb62f;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    padding: 9px 20px;
+    margin-top: 15px;
+}
+
+@media (max-width:575px) {
+    .business {
+        height: 400px;
+    }
+    .business .business-info .business-title {
+        font-size: 30px;
+    }
+}
+
+
+/* Choose Styles */
+
+.choose {
+    background: #f7f7f7;
+}
+
+.choose .choose-panal .panal-list {
+    background: #333;
+    color: #FFF;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.choose .choose-panal .panal-list .item-list {
+    padding: 13px 20px;
+    cursor: pointer;
+}
+
+.choose .choose-panal .content {
+    background: #FFF;
+}
+
+.choose .choose-panal .content .content-info {
+    border: 1px solid #ccc;
+}
+
+.choose .choose-panal .content .content-info img {
+    width: 40%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.choose .choose-panal .content .content-info p {
+    padding: 10px;
+    color: #888;
+    line-height: 1.5;
+}
+
+.choose .choose-panal .content .content2,
+.choose .choose-panal .content .content3 {
+    display: none;
+}
+
+.choose .choose-media {
+    background: #636363;
+    padding: 144px 0;
+    text-align: center;
+    color: #FFF;
+}
+
+.choose .choose-media .choose-icon {
+    background: #f00;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.choose .choose-media .choose-title {}
+
+.choose .choose-media .choose-desc {}
