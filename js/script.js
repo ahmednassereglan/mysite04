@@ -79,14 +79,21 @@ $(document).ready(function() {
     });
 
     // Owl carousal  >>  pleasure
-    $('.owlcaranm').owlCarousel({
-        animateOut: 'fadeOut',
-        items: 1,
-        margin: 30,
-        stagePadding: 30,
-        nav: true,
-        smartSpeed: 450
-    });
+    var owl = $("#owl-demo");
+    // owl.owlCarousel({
+    //     animateOut: 'slideOutDown',
+    //     animateIn: 'flipInX',
+    //     items: 1,
+    //     margin: 30,
+    //     stagePadding: 30,
+    //     smartSpeed: 450
+    // });
 
+    // owl.owlCarousel({
+    //     loop: true,
+    //     margin: 20,
+    //     nav: true,
+    //     items: 1
+    // })
 
 });

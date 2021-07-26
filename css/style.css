@@ -1033,3 +1033,26 @@ header nav .nav-list .list a:hover {
 
 
 /* pleasure Styles */
+
+.pleasure {
+    background: #333;
+    color: #eee;
+    padding: 80px 0;
+}
+
+.pleasure .pleasure-info .pleasure-info-icon {
+    color: #7cb62f;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.pleasure .pleasure-info .pleasure-info-desc {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.pleasure .pleasure-info .pleasure-info-text {
+    font-style: italic;
+    color: #bbb;
+}
