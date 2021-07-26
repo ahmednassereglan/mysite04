@@ -78,5 +78,15 @@ $(document).ready(function() {
 
     });
 
+    // Owl carousal  >>  pleasure
+    $('.owlcaranm').owlCarousel({
+        animateOut: 'fadeOut',
+        items: 1,
+        margin: 30,
+        stagePadding: 30,
+        nav: true,
+        smartSpeed: 450
+    });
+
 
 });

@@ -101,6 +101,29 @@ body {
     margin-bottom: 1%;
 }
 
+
+/* margin left */
+
+.ml-5 {
+    margin-left: 5%;
+}
+
+.ml-4 {
+    margin-left: 4%;
+}
+
+.ml-3 {
+    margin-left: 3%;
+}
+
+.ml-2 {
+    margin-left: 2%;
+}
+
+.ml-1 {
+    margin-left: 1%;
+}
+
 .clear {
     clear: both;
 }
@@ -872,7 +895,7 @@ header nav .nav-list .list a:hover {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 650px;
+    height: 700px;
     text-align: center;
     position: relative;
     color: #fff;
@@ -924,37 +947,89 @@ header nav .nav-list .list a:hover {
 
 /* 
 @media (max-width:575px) {
-    .team .team-content {
-        width: 80%;
-        margin: 20px auto;
+    
+}
+
+@media (min-width:575px) and (max-width:990px) {
+    
+}
+
+@media (min-width:990px) and (max-width:1200px) {
+    
+} */
+
+
+/* Blog Styles */
+
+.blog {}
+
+.blog .blog-info {
+    text-align: left;
+}
+
+.blog .blog-info .blog-info-img img {
+    width: 100%;
+}
+
+.blog .blog-info .blog-info-content {
+    margin: auto 5%;
+}
+
+.blog .blog-info .blog-info-content .blog-info-title {
+    font-size: 20px;
+    color: #555;
+}
+
+.blog .blog-info .blog-info-content span {
+    color: #888;
+}
+
+.blog .blog-info .blog-info-content span i {
+    color: #7cb62f;
+}
+
+.blog .blog-info .blog-info-content .blog-info-desc {
+    margin-top: 5px;
+    color: #777;
+}
+
+.blog .blog-info .blog-info-content .blog-info-btn {
+    margin-top: 5px;
+    border: 0;
+    padding: 8px 20px;
+    color: #fff;
+    background-color: #7cb62f;
+}
+
+@media (max-width:575px) {
+    .blog .blog-info {
+        margin: auto;
+        text-align: center;
+        margin-top: 5%;
     }
-    .team .team-content .team-con-img {
-        width: 100%;
-        height: 380px;
+    .blog .blog-info .blog-info-img img {
+        width: 95%;
     }
-    .team .team-content .bg {
-        bottom: 20px;
-    }
-    .team .team-content:hover .bg {
-        width: 80%;
-        background: #7cb62f;
+    .blog .blog-info .blog-info-content {
+        text-align: left;
+        margin-bottom: 5%;
     }
 }
 
 @media (min-width:575px) and (max-width:990px) {
-    .team .team-content {
-        width: 100%;
+    .blog .blog-info {
+        margin: auto;
+        text-align: center;
+        margin-top: 5%;
     }
-    .team .team-content .team-con-img {
-        width: 100%;
+    .blog .blog-info .blog-info-img img {
+        width: 95%;
+    }
+    .blog .blog-info .blog-info-content {
+        text-align: left;
+        margin-bottom: 3%;
     }
 }
 
-@media (min-width:990px) and (max-width:1200px) {
-    .team .team-content {
-        width: 100%;
-    }
-    .team .team-content .team-con-img {
-        width: 100%;
-    }
-} */
+
+/* pleasure Styles */
