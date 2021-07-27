@@ -961,8 +961,6 @@ header nav .nav-list .list a:hover {
 
 /* Blog Styles */
 
-.blog {}
-
 .blog .blog-info {
     text-align: left;
 }
@@ -1055,4 +1053,59 @@ header nav .nav-list .list a:hover {
 .pleasure .pleasure-info .pleasure-info-text {
     font-style: italic;
     color: #bbb;
+}
+
+
+/* Next Styles */
+
+.next {
+    background: #7cb62f;
+}
+
+.next .next-desc {
+    font-size: 23px;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.next .next-btn {
+    background: #333;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 0;
+}
+
+@media (max-width:575px) {
+    .next {
+        text-align: center;
+    }
+    .next .next-desc {
+        font-size: 20px;
+    }
+    .next .next-btn {
+        font-size: 13px;
+        padding: 7px 17px;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width:575px) and (max-width:990px) {
+    .next {
+        text-align: center;
+    }
+    .next .next-desc {
+        font-size: 23px;
+    }
+    .next .next-btn {
+        margin-top: 5px;
+        padding: 7px 17px;
+    }
+}
+
+
+/* Contact Styles */
+
+.contact {
+    background: #f7f7f7;
 }
