@@ -1214,3 +1214,64 @@ header nav .nav-list .list a:hover {
         text-align: center;
     }
 }
+
+
+/* Footer Form */
+
+.footersec {
+    background: #222;
+    color: #ccc;
+}
+
+
+/* header part */
+
+.footersec .footer-title {}
+
+.footersec .footer-title .footer-header {
+    color: #fff;
+}
+
+.footersec .footer-title .footer-hr {}
+
+
+/* frist part */
+
+.footersec .footer-content {}
+
+.footersec .footer-content .footer-desc {}
+
+.footersec .footer-content .footer-icons {}
+
+.footersec .footer-content .footer-icons .icon {}
+
+.footersec .footer-content .footer-icons .face-icon {}
+
+.footersec .footer-content .footer-icons .twitt-icon {}
+
+.footersec .footer-content .footer-icons .tube-icon {}
+
+.footersec .footer-content .footer-icons .google-icon {}
+
+.footersec .footer-content .footer-icons .link-icon {}
+
+
+/* second part */
+
+.footersec .footer-content .footer-list {}
+
+.footersec .footer-content .footer-list .footer-item {}
+
+
+/* third part */
+
+.footersec .footer-content .buttons {}
+
+.footersec .footer-content .buttons .foot-btn {}
+
+
+/* fourth part */
+
+.footersec .footer-content .gallery {}
+
+.footersec .footer-content .gallery img {}
