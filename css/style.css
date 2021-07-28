@@ -1226,52 +1226,82 @@ header nav .nav-list .list a:hover {
 
 /* header part */
 
-.footersec .footer-title {}
-
 .footersec .footer-title .footer-header {
     color: #fff;
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
 }
-
-.footersec .footer-title .footer-hr {}
 
 
 /* frist part */
 
-.footersec .footer-content {}
+.footersec .footer-content {
+    margin-top: 40px;
+}
 
-.footersec .footer-content .footer-desc {}
+.footersec .footer-content .footer-desc {
+    margin-bottom: 20px;
+}
 
-.footersec .footer-content .footer-icons {}
+.footersec .footer-content .footer-icons .icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    margin-right: 6px;
+}
 
-.footersec .footer-content .footer-icons .icon {}
+.footersec .footer-content .footer-icons .face-icon {
+    background: #3b5998;
+}
 
-.footersec .footer-content .footer-icons .face-icon {}
+.footersec .footer-content .footer-icons .twitt-icon {
+    background: #00acee;
+}
 
-.footersec .footer-content .footer-icons .twitt-icon {}
+.footersec .footer-content .footer-icons .tube-icon {
+    background: #c4302b;
+}
 
-.footersec .footer-content .footer-icons .tube-icon {}
+.footersec .footer-content .footer-icons .google-icon {
+    background: #db4a39;
+}
 
-.footersec .footer-content .footer-icons .google-icon {}
-
-.footersec .footer-content .footer-icons .link-icon {}
+.footersec .footer-content .footer-icons .link-icon {
+    background: #0072b1;
+}
 
 
 /* second part */
 
-.footersec .footer-content .footer-list {}
+.footersec .footer-content .footer-list {
+    margin-top: -10px;
+}
 
-.footersec .footer-content .footer-list .footer-item {}
+.footersec .footer-content .footer-list .footer-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+}
 
 
 /* third part */
 
-.footersec .footer-content .buttons {}
-
-.footersec .footer-content .buttons .foot-btn {}
+.footersec .footer-content .buttons .foot-btn {
+    padding: 5px 10px;
+    background: #696969;
+    color: #fff;
+    border: 0;
+    margin: 2px 1px;
+}
 
 
 /* fourth part */
 
-.footersec .footer-content .gallery {}
-
-.footersec .footer-content .gallery img {}
+.footersec .footer-content .gallery img {
+    width: 70px;
+    height: 70px;
+    margin: 3px 1px;
+    border: 1px solid #888;
+    padding: 1px;
+}
