@@ -1216,10 +1216,10 @@ header nav .nav-list .list a:hover {
 }
 
 
-/* Footer Form */
+/* Footer part 1 */
 
 .footersec {
-    background: #222;
+    background: #333;
     color: #ccc;
 }
 
@@ -1230,6 +1230,7 @@ header nav .nav-list .list a:hover {
     color: #fff;
     border-bottom: 2px solid #555;
     padding-bottom: 10px;
+    font-size: 20px;
 }
 
 
@@ -1304,4 +1305,31 @@ header nav .nav-list .list a:hover {
     margin: 3px 1px;
     border: 1px solid #888;
     padding: 1px;
+}
+
+
+/* Footer part 2*/
+
+.copyrigth {
+    background: #222;
+    color: #ccc;
+}
+
+.copyrigth .copyrigth-desc {
+    color: #ccc;
+}
+
+.copyrigth .copyrigth-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrigth .copyrigth-list .copyrigth-item a {
+    color: #ccc;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.copyrigth .copyrigth-list .copyrigth-item:hover a {
+    color: #7cb62f;
 }
