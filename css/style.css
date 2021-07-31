@@ -255,6 +255,12 @@ header nav .nav-list .list a:hover {
     width: 150px;
     text-align: center;
     padding: 10px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.home .button:hover {
+    background: #fff;
+    color: #7cb62f;
 }
 
 @media (max-width:575px) {

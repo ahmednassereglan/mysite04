@@ -5,15 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+
+    <!-- font-awesome -->
     <link rel="stylesheet" href="css/vendors/font-awesome.min.css">
+
+    <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/vendors/owl.carousel.min.css">
     <link rel="stylesheet" href="css/vendors/owl.theme.default.min.css">
+
+    <!-- Magnific Popup -->
     <link rel="stylesheet" href="css/vendors/magnific-popup.css">
+
+    <!-- Animate -->
     <link rel="stylesheet" href="css/vendors/animate.min.css">
+
+    <!-- Slick -->
     <link rel="stylesheet" href="css/vendors/slick.css">
     <link rel="stylesheet" href="css/vendors/slick-theme.css">
+
+    <!-- Custom Css -->
     <link rel="stylesheet" href="css/style.css">
+
     <title>mysite04</title>
 
 </head>
@@ -33,14 +48,18 @@
                 <!-- navbar -->
                 <nav class="col-md-9 col-xs-12">
                     <ul class="nav-list">
-                        <li class="list"><a href="#">Home</a></li>
-                        <li class="list"><a href="#">About</a></li>
-                        <li class="list"><a href="#">Services</a></li>
-                        <li class="list"><a href="#">protfolio</a></li>
-                        <li class="list"><a href="#">Team</a></li>
-                        <li class="list"><a href="#">Test</a></li>
-                        <li class="list"><a href="#">Home</a></li>
-                        <li class="list"><a href="#">Home</a></li>
+                        <li class="list"><a href="#home">Home</a></li>
+                        <li class="list"><a href="#about">About</a></li>
+                        <li class="list"><a href="#service">Services</a></li>
+                        <!-- <li class="list"><a href="#statist">Statistics</a></li> -->
+                        <li class="list"><a href="#prot">protfolio</a></li>
+                        <!-- <li class="list"><a href="#expret">Exprets</a></li> -->
+                        <li class="list"><a href="#price">Prices</a></li>
+                        <li class="list"><a href="#team">Team</a></li>
+                        <!-- <li class="list"><a href="#choose">Choose</a></li> -->
+                        <li class="list"><a href="#test">Testimonial</a></li>
+                        <li class="list"><a href="#blog">Blog</a></li>
+                        <li class="list"><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -49,7 +68,7 @@
 
     <!-- Home Section -->
 
-    <section class="sections home text-center">
+    <section class="sections home text-center" id="home">
         <div class="overlay">
             <div class="container">
                 <div class="home-content">
@@ -64,7 +83,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="sections about mb-4">
+    <section class="sections about mb-4" id="about">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title">About Us</h2>
@@ -100,7 +119,7 @@
     </section>
 
     <!-- services section -->
-    <section class="sections services">
+    <section class="sections services" id="service">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title">Our Services</h2>
@@ -177,7 +196,7 @@
     </section>
 
     <!-- Statistics section -->
-    <section class="sections stat">
+    <section class="sections stat" id="statist">
         <div class="overlay">
             <div class="container">
                 <div class="row">
@@ -214,7 +233,7 @@
         </div>
     </section>
     <!-- portfolio section -->
-    <section class="sections portfolio">
+    <section class="sections portfolio" id="prot">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title">Our Portfolio</h2>
@@ -286,7 +305,7 @@
     </section>
 
     <!-- Exprets section -->
-    <section class="sections exprets mt-4 ">
+    <section class="sections exprets mt-4 " id="expret">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title">Our Exprets</h2>
@@ -366,7 +385,7 @@
 
     <!-- Pricing section -->
 
-    <section class="sections pricing">
+    <section class="sections pricing" id="price">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title">Our Pricing</h2>
@@ -470,7 +489,7 @@
 
     <!-- Team section -->
 
-    <section class="sections team">
+    <section class="sections team" id="team">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title">Our Team</h2>
@@ -616,7 +635,7 @@
     </section>
 
     <!-- Choose Section  -->
-    <section class="sections choose">
+    <section class="sections choose" id="choose">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title">Why Choose Us</h2>
@@ -685,7 +704,7 @@
     </section>
 
     <!-- Testimonial Section  -->
-    <section class="sections testim">
+    <section class="sections testim" id="test">
         <div class="overlay">
             <div class="container">
                 <div class="section-header text-center mt-5">
@@ -820,7 +839,7 @@
     </section>
 
     <!-- Blog Section  -->
-    <section class="sections blog">
+    <section class="sections blog" id="blog">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title">Our Blog</h2>
@@ -988,7 +1007,7 @@
     </section>
 
     <!-- Contact Section  -->
-    <section class="sections contact">
+    <section class="sections contact" id="contact">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title">Contact Us</h2>
@@ -1162,14 +1181,26 @@
     <div class="scroll-top">
         <i class="fa fa-arrow-up" aria-hidden="true"></i>
     </div>
-
+    <!-- Jquery -->
     <script src="js/vendors/jquery-3.6.0.min.js"></script>
     <script src="js/vendors/jquery-migrate-3.3.2.min.js"></script>
+
+    <!-- Bootstrap -->
     <script src="js/vendors/bootstrap.js"></script>
+
+    <!-- CountTo -->
     <script src="js/vendors/jquery.countTo.js"></script>
+
+    <!-- Owl Carousel -->
     <script src="js/vendors/owl.carousel.min.js"></script>
+
+    <!-- Magnific Popup -->
     <script src="js/vendors/jquery.magnific-popup.js"></script>
+
+    <!-- Slick -->
     <script src="js/vendors/slick.min.js"></script>
+
+    <!-- Custom js -->
     <script src="js/script.js"></script>
 
 
