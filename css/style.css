@@ -1333,3 +1333,48 @@ header nav .nav-list .list a:hover {
 .copyrigth .copyrigth-list .copyrigth-item:hover a {
     color: #7cb62f;
 }
+
+
+/* Scroll To Top*/
+
+.scroll-top {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: #7cb62f;
+    color: #fff;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:575px) {
+    .scroll-top {
+        bottom: 110px;
+    }
+}
+
+@media (min-width:575px) and (max-width:990px) {
+    .scroll-top {
+        bottom: 110px;
+    }
+}
+
+
+/* 
+@media (max-width:575px) {
+    
+}
+
+@media (min-width:575px) and (max-width:990px) {
+    
+}
+
+@media (min-width:990px) and (max-width:1200px) {
+    
+} */

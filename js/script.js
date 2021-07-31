@@ -7,15 +7,24 @@ $(document).ready(function() {
     // when scroll body sticky navbar
     $(window).scroll(function() {
         var sc = $(this).scrollTop();
-        if (sc > 100) {
+        if (sc > 100) { // show sticky navbar
             $('header').addClass('sticky');
         } else {
             $('header').removeClass('sticky');
         }
 
+
+        // when scroll body begin count in Statistics section
         if (sc > 1800) {
             $('.stat-info-counter').countTo();
             $(window).off('scroll');
+        }
+
+        // when scroll body fade the scroll top btn 
+        if (sc > 500) {
+            $('.scroll-top').fadeIn();
+        } else {
+            $('.scroll-top').fadeOut();
         }
 
 
@@ -87,5 +96,15 @@ $(document).ready(function() {
         arrows: false
 
 
+    });
+
+
+    // scroll to top 
+
+
+    $('.scroll-top').click(function() {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500)
     });
 });
